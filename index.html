@@ -11,11 +11,11 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Password Generator</h1>
+       
       </header>
       <div class="card">
         <div class="card-header">
-          <h2>Generate a Password</h2>
+          <h1>Password Generator</h1>
         </div>
         <div class="card-body">
           <textarea
@@ -27,11 +27,14 @@
         </div>
         <div class="card-footer"></div>
       </div>
+
+      <br>
       <div class="card">
         <div class="card-header"></div>
         <div class="card-body">
           <fieldset>
             <legend>Password Options</legend>
+          <div class="options-container">
             <div class="password-option">
               <input type="checkbox" id="upperCase" name="option" value="upperCase" />
               <label for="coding">Uppercase Letters</label>
@@ -48,8 +51,9 @@
               <input type="checkbox" id="specialCharacters" name="option" value="specialCharacters" />
               <label for="specialCharacters">Special Characters</label>
             </div>
+          </div>
             <div class="slidecontainer">
-              <input type="range" min="8" max="128" value="50" class="slider" id="myRange">
+              <input type="range" min="8" max="128" value="68" class="slider" id="myRange">
             </div>
           </fieldset>
         </div>

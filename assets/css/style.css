@@ -14,11 +14,11 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #aeafb1;
+  background-color: #cfd2da;
 }
 
 .wrapper {
-  padding-top: 30px;
+  padding-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -32,7 +32,6 @@ header {
 
 .card {
   background-color: hsl(0, 0%, 100%);
-  border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
   color: hsl(206, 17%, 28%);
@@ -74,7 +73,7 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: rgb(26, 22, 22);
   
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
@@ -95,6 +94,19 @@ button[disabled] {
 
 .float-right {
   float: right;
+}
+
+.options-container {
+  width: 100%;
+  padding: none;
+  margin: none;
+  text-align: center;
+}
+
+
+.password-option {
+  display: inline-block;
+  
 }
 
 #password {
@@ -120,6 +132,7 @@ button[disabled] {
 
 .slidecontainer {
     width: 100%; /* Width of the outside container */
+    
   }
   
   /* The slider itself */
@@ -133,7 +146,9 @@ button[disabled] {
     opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
     -webkit-transition: .2s; /* 0.2 seconds transition on hover */
     transition: opacity .2s;
-  }
+    border-radius: 4px;
+    
+}
   
   /* Mouse-over effects */
   .slider:hover {
@@ -146,21 +161,19 @@ button[disabled] {
     appearance: none;
     width: 25px; /* Set a specific slider handle width */
     height: 15px; /* Slider handle height */
-    background: #4CAF50; /* Green background */
+    background: #000000; /* Green background */
     cursor: pointer; /* Cursor on hover */
+    border-radius: 10px;
   }
   
   .slider::-moz-range-thumb {
     width: 25px; /* Set a specific slider handle width */
     height: 15px; /* Slider handle height */
-    background: #4CAF50; /* Green background */
+    background: #000000; /* Green background */
     cursor: pointer; /* Cursor on hover */
   }
 
-  .password-option {
-    display: inline-block;
-  }
-  
+
 
 @media (max-width: 690px) {
   .btn {
