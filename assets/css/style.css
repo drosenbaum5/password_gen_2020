@@ -98,11 +98,15 @@ button[disabled] {
 
 .options-container {
   width: 100%;
-  padding: none;
+  padding-bottom: 20px;
   margin: none;
   text-align: center;
 }
 
+#length-indicator {
+  margin: 0 5px 0 0;
+  padding: 5px;
+}
 
 .password-option {
   display: inline-block;
@@ -173,7 +177,9 @@ button[disabled] {
     cursor: pointer; /* Cursor on hover */
   }
 
-
+  input {
+    border: 2px solid
+  }
 
 @media (max-width: 690px) {
   .btn {
